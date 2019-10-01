@@ -1,0 +1,34 @@
+<h1>LOGIN PAGE:</h1>
+    <form action="/ttt" method="POST">
+        <label for="name">name: </label>
+        <input name="name" placeholder="enter your name">
+        <button type="submit">PLAY AS GUEST</button>
+    </form>
+<!-- 
+    <a href="/adduser">This is a regular link</a>
+
+    <form method="post" action="/adduser" class="inline">
+      <input type="hidden" name="extra_submit_param" value="extra_submit_value">
+      <button type="submit" name="submit_param" value="submit_value" class="link-button">
+        This is a link that sends a POST request
+      </button>
+    </form>
+ -->
+
+    <form action="/login" method="POST">
+        <label for="username">username: </label>
+        <input name="username" placeholder="enter your new username">
+        <label for="password">password: </label>
+        <input name="password" placeholder="enter your password">
+        <button type="submit">LOGIN</button>
+    </form>
+
+    <form action="/adduser" method="POST">
+        <label for="username">username: </label>
+        <input name="username" placeholder="enter your new username">
+        <label for="email">email: </label>
+        <input name="email" placeholder="enter your email">
+        <label for="password">password: </label>
+        <input name="password" placeholder="enter your password">
+        <button type="submit">REGISTER</button>
+    </form>
