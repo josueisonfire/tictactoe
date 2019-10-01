@@ -652,4 +652,4 @@ def send_mail(subject, recipient, message):
     smtp_conn.quit()
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
